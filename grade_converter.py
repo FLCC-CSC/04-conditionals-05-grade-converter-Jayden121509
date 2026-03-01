@@ -16,26 +16,14 @@
 
 print("===== Grade Converter =====")
 grade = int(input("Enter a numerical grade (1-100): "))
-if grade >= 97:
+if grade > 100:
     print("A+")
-elif grade >= 93:
-    print("A")
 elif grade >= 90:
-    print("A-")
-elif grade >= 87:
-    print("B+")
-elif grade >= 83:
-    print("B")
+    print("A")
 elif grade >= 80:
-    print("B-")
-elif grade >= 77:
-    print("C+")
-elif grade >= 73:
-    print("C")
+    print("B")
 elif grade >= 70:
-    print("C-")
-elif grade >= 67:
-    print("D+")
+    print("C")
 elif grade >= 65:
     print("D")
 else:
